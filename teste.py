@@ -3,7 +3,7 @@ from chatterbot import ChatBot
 
 bot = ChatBot('TW Chat Bot')
 
-conversa = ['oi', 'olá', 'olá,Bom dia', 'Bom dia','Bum dinha', 'Como estás?', '¡Estoy Bién!',
+conversa = ['oi', 'olá', 'olá,Bom dia', 'Bom dia','BOM dia', 'Como estás?', '¡Estoy Bién!',
  'Nosotras sentimos sua falta','É um passaro? , É um avião?, É um homem nuvem!','Oi', 'Olá', 'Tudo bem?',
   'Tudo ótimo', 'Você gosta de programar?', 'Sim, eu programo em Python']
 
@@ -16,4 +16,4 @@ while True:
     if float(resposta.confidence) > 0.5:
         print('Robozinho camarada: ', resposta)
     else:
-        print('Robozinho camarada: Meu intelecto ainda não é evoluido o suficiente para responder este tipo de pergunta escrota!')
+        print('Robozinho camarada: Meu intelecto ainda não é evoluido o suficiente para responder este tipo de pergunta!')
